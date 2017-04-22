@@ -6,8 +6,8 @@ public class Example {
 		System.out.println("java 8 Lambda in action");
 
 		System.out.println("********************************************");
-		Double addition = Calculator.calculate(30d, 70d, (a, b) -> a + b);
-		Double mult = Calculator.calculate(30d,70d, (a,b) -> a*b); 
+		Double addition = Calculator.calculate(323d, 767d, (a, b) -> a + b);
+		Double mult = Calculator.calculate(323d,767d, (a,b) -> a*b); 
 			System.out.println("java 8 addition");
 			System.out.println(addition) ; 
 			System.out.println("java 8 multiplication");
