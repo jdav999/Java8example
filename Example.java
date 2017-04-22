@@ -8,9 +8,9 @@ public class Example {
 		System.out.println("********************************************");
 		Double addition = Calculator.calculate(323d, 767d, (a, b) -> a + b);
 		Double mult = Calculator.calculate(323d,767d, (a,b) -> a*b); 
-			System.out.println("java 8 addition");
+			System.out.println("Lambda  addition");
 			System.out.println(addition) ; 
-			System.out.println("java 8 multiplication");
+			System.out.println("Lambda multiplication");
 			System.out.println(mult);
 
 	}
